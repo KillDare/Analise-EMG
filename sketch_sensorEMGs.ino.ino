@@ -13,5 +13,5 @@ void loop() {
     tensao =  ((valorEMG / 1023.0) * 5.0);
     Serial.print(tensao);
     Serial.print(" ");
-    delay(10);  // Pequeno atraso para evitar sobrecarga
+    delay(1);  // Pequeno atraso para evitar sobrecarga
 }
